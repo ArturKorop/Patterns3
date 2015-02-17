@@ -10,8 +10,8 @@ namespace Core.Decorator
     {
         public Mocha(Beverage beverage) : base(beverage)
         {
-            this.Description = "Mocha";
-            this.Cost = 3;
+            this.TextDescription = "Mocha";
+            this.SetCost(3, 3, 2, beverage.Size);
         }
     }
 }

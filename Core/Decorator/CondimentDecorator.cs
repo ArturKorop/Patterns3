@@ -10,7 +10,7 @@ namespace Core.Decorator
     {
         protected Beverage Beverage { get; set; }
 
-        public CondimentDecorator(Beverage beverage)
+        public CondimentDecorator(Beverage beverage) : base(beverage.Size)
         {
             this.Beverage = beverage;
         }
@@ -24,11 +24,7 @@ namespace Core.Decorator
         {
             get
             {
-                return this.Beverage.Description + ", " + base.Description;
-            }
-            set
-            {
-                base.Description = value;
+                return this.Beverage.Description + ", " + base.TextDescription;
             }
         }
     }

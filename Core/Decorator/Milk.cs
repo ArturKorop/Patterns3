@@ -10,8 +10,8 @@ namespace Core.Decorator
     {
         public Milk(Beverage beverage) : base(beverage)
         {
-            this.Description = "Milk";
-            this.Cost = 5;
+            this.TextDescription = "Milk";
+            this.SetCost(5, 4, 3, beverage.Size);
         }
     }
 }

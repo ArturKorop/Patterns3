@@ -8,10 +8,10 @@ namespace Core.Decorator
 {
     public class Espresso : Beverage
     {
-        public Espresso()
+        public Espresso(Size size) : base(size)
         {
-            this.Description = "Espresso";
-            this.Cost = 20;
+            this.TextDescription = "Espresso";
+            this.SetCost(20, 15, 10, size);
         }
     }
 }

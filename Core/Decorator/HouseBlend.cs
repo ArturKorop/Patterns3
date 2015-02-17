@@ -8,10 +8,10 @@ namespace Core.Decorator
 {
     public class HouseBlend : Beverage
     {
-        public HouseBlend()
+        public HouseBlend(Size size) : base(size)
         {
-            this.Description = "House blend";
-            this.Cost = 30;
+            this.TextDescription = "House blend";
+            this.SetCost(30, 25, 20, size);
         }
     }
 }
