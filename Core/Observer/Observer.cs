@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Observer
 {
-    [RunAttirbute(true, 2)]
+    [RunAttirbute(false, 2)]
     public class Observer : IRunner
     {
         public void Run()
