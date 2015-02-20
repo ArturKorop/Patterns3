@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{09F9DBC7-71D2-4DB4-8ADF-EC5E75D88C16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BWSHelper", "BWSHelper\BWSHelper.csproj", "{B0DBF848-D489-4539-8789-D8F2CCA29A74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{09F9DBC7-71D2-4DB4-8ADF-EC5E75D88C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09F9DBC7-71D2-4DB4-8ADF-EC5E75D88C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09F9DBC7-71D2-4DB4-8ADF-EC5E75D88C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DBF848-D489-4539-8789-D8F2CCA29A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DBF848-D489-4539-8789-D8F2CCA29A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DBF848-D489-4539-8789-D8F2CCA29A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DBF848-D489-4539-8789-D8F2CCA29A74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
