@@ -63,6 +63,8 @@
     <Compile Include="Observer\StatisticsDisplay.cs" />
     <Compile Include="Observer\WeatherData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\ChocolateBoiler.cs" />
+    <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="Strategy\AxeBehavior.cs" />
     <Compile Include="Strategy\BaseCharacter.cs" />
     <Compile Include="Strategy\IWeaponBehavior.cs" />

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Factory
 {
-    [RunAttirbute(true, 4)]
+    [RunAttribute(true, 4)]
     public class Factory : IRunner
     {
         public void Run()

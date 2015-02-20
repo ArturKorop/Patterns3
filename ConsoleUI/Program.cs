@@ -20,7 +20,7 @@ namespace ConsoleUI
                 var runnerType = type.GetInterface(typeof(IRunner).Name);
                 if(runnerType != null)
                 {
-                    var attr = type.GetCustomAttribute<RunAttirbute>();
+                    var attr = type.GetCustomAttribute<RunAttribute>();
                     if (attr != null && attr.Use)
                     {
                         var runner = (IRunner)Activator.CreateInstance(type);

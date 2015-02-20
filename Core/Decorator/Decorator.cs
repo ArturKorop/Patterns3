@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Decorator
 {
-    [RunAttirbute(true, 3)]
+    [RunAttribute(true, 3)]
     public class Decorator : IRunner
     {
         public void Run()

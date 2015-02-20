@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Strategy
 {
-    [RunAttirbute(true, 1)]
+    [RunAttribute(true, 1)]
     public class Strategy : IRunner
     {
         public void Run()
