@@ -39,6 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\Adapter.cs" />
+    <Compile Include="Adapter\IDuck.cs" />
+    <Compile Include="Adapter\Turkey.cs" />
+    <Compile Include="Adapter\TurkeyAdapter.cs" />
     <Compile Include="Command\Command.cs" />
     <Compile Include="Command\ICommand.cs" />
     <Compile Include="Command\Light.cs" />
