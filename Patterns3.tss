@@ -2,34 +2,10 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>d:\projects\git\patterns3\core\factory\basepizza.cs</string>
+      <string>D:\Projects\Git\Patterns3\Core\Singleton\ChocolateBoiler.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>d:\projects\git\patterns3\core\factory\pizzaingredientfactory.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>d:\projects\git\patterns3\core\factory\pizzastore.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>d:\projects\git\patterns3\core\factory\nypizza.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>d:\projects\git\patterns3\core\factory\chcheesepizza.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>D:\Projects\Git\Patterns3\Core\Factory\ChicagoStylePizzaStore.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>d:\projects\git\patterns3\core\factory\nystylepizzastore.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>d:\projects\git\patterns3\core\factory\simplepizzafactory.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>d:\projects\git\patterns3\core\factory\factory.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>d:\projects\git\patterns3\core\factory\ipizza.cs</string>
+      <string>D:\Projects\Git\Patterns3\Core\Singleton\Singleton.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

@@ -39,6 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\ICommand.cs" />
+    <Compile Include="Command\Light.cs" />
+    <Compile Include="Command\RemoteControl.cs" />
     <Compile Include="Decorator\Beverage.cs" />
     <Compile Include="Decorator\CondimentDecorator.cs" />
     <Compile Include="Decorator\Decorator.cs" />
