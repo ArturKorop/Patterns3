@@ -54,6 +54,9 @@
     <Compile Include="Decorator\HouseBlend.cs" />
     <Compile Include="Decorator\Milk.cs" />
     <Compile Include="Decorator\Mocha.cs" />
+    <Compile Include="Facade\Facade.cs" />
+    <Compile Include="Facade\HomeTheatreFacade.cs" />
+    <Compile Include="Facade\TV.cs" />
     <Compile Include="Factory\BasePizza.cs" />
     <Compile Include="Factory\ChCheesePizza.cs" />
     <Compile Include="Factory\ChicagoStylePizzaStore.cs" />
